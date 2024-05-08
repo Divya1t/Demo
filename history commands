@@ -1,0 +1,424 @@
+1  sudo apt update
+    2  sudo nano /etc/resolv.conf 
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  sudo apt install gcc++
+    6  sudo apt install gcc
+    7  sudo apt install build-essentials
+    8  sudo apt install build-essential
+    9  sudo apt install gdb
+   10  init 0
+   11  gcc --version
+   12  cd "/home/rps/Desktop/C Demo/" && gcc first.c -o first && "/home/rps/Desktop/C Demo/"first
+   13  sudo su
+   14  tar xvfz node_exporter-1.7.0.linux-amd64.tar.gz 
+   15  cd node_exporter-1.7.0.linux-amd64/
+   16  sudo mv node_exporter /usr/local/bin/
+   17  sudo tee /etc/systemd/system/node_exporter.service<<EOF
+   18  [Unit]
+   19  Description=Node Exporter
+   20  After=network.target
+   21   
+   22  [Service]
+   23  User=rps
+   24  Group=rps
+   25  Type=simple
+   26  ExecStart=/usr/local/bin/node_exporter
+   27   
+   28  [Install]
+   29  WantedBy=multi-user.target
+   30  EOF
+   31  sudo systemctl daemon-reload
+   32  sudo systemctl start node_exporter
+   33  sudo systemctl enable node_exporter
+   34  sudo systemctl status node_exporter
+   35  sudo apt install gcc
+   36  sudo apt install git
+   37  sudo apt install make
+   38  sudo apt install vim
+   39  sudo apt install g++
+   40  sudo apt install gedit
+   41  sudo apt install cmake
+   42  sudo apt install g++
+   43  cd
+   44  sudo apt update -y
+   45  sudo apt install mysql-server
+   46  sudo systemctl status mysql.service 
+   47  sudo mysql
+   48  sudo mysql_secure_installation
+   49  sudo mysql
+   50  sudo mysql_secure_installation
+   51  sudo mysql -u root -p
+   52  sudo snap install mysql-workbench-community
+   53  man man
+   54  cd .
+   55  mkdir linux
+   56  cd .
+   57  cd
+   58  cd /var/html
+   59  cd.
+   60  man cd
+   61  cd.
+   62  cd ..
+   63  cd .
+   64  cd ..
+   65  cd /home/linux
+   66  cd .
+   67  cd ..
+   68  cd .
+   69  cd
+   70  pwd
+   71  cd /home/rps
+   72  cd .
+   73  cd ..
+   74  cd 
+   75  cd /home/rps/linux
+   76  pwd
+   77  cd .
+   78  cd ..
+   79  cd -
+   80  cd --
+   81  pwd
+   82  cd documents
+   83  cd linux
+   84  cd .
+   85  cd ..
+   86  cd `
+   87  zk
+   88  ls
+   89  cd Documents
+   90  pwd
+   91  cd
+   92  cd /
+   93  pwd
+   94  cd .
+   95  cd ..
+   96  cd
+   97  ls
+   98  cd Documents
+   99  pwd
+  100  cd -
+  101  cd --
+  102  cd /
+  103  pwd
+  104  ls
+  105  cd Documents
+  106  cd .
+  107  cd ..
+  108  cd Documents
+  109  pwd
+  110  cd ~
+  111  cd Documents
+  112  cd -
+  113  cd /
+  114  pwd
+  115  cd
+  116  man cd
+  117  ls
+  118  man cd
+  119  ls
+  120  cd Documents
+  121  pwd
+  122  cd .
+  123  cd ..
+  124  man cd
+  125  man ls
+  126  info ls
+  127  help ls
+  128  man -k ls
+  129  man ls.2
+  130  man ls(2)
+  131  man 'ls(2)'
+  132  cd Document
+  133  ls
+  134  cd Documents
+  135  mkdir test
+  136  ls
+  137  cd test
+  138  vi hello.txt
+  139  ls
+  140  cat hello.txt
+  141  cat > readme.txt
+  142  cat readme.txt
+  143  cat >> readme.txt
+  144  cat readme.txt
+  145  touch myfile.txt
+  146  cp myfile.txt file.txt
+  147  ls
+  148  cat file.txt
+  149  cat >> file.txt
+  150  cat file.txt
+  151  cd
+  152  touch linux.txt
+  153  cat >> linux.txt
+  154  cat linux.txt
+  155  gzip linux.txt
+  156  cd Desktop
+  157  mv /home/rps/Downloads/node_exporter-1.7.0.linux-amd64
+  158  mv /home/rps/Downloads/node_exporter-1.7.0.linux-amd64 
+  159  mkdir f1
+  160  mv /home/rps/Downloads/node_exporter-1.7.0.linux-amd64 f1
+  161  ls
+  162  mv /home/rps/Downloads/node_exporter-1.7.0.linux-amd64/linux.pdf f1
+  163  cd
+  164  mv Downloads/node_exporter-1.7.0.linux-amd64/linux.pdf  
+  165  cd Desktop
+  166  cd
+  167  cd Dowmloads
+  168  cd Downloads
+  169  mv /home/rps/Downloads/file expore/linux.pdf ~/Desktop
+  170  cd linux.pdf
+  171  mv /home/rps/Downloads/file expore/linux.pdf ~/Desktop
+  172  mv /Downloads/file expore/linux.pdf ~/Desktop
+  173  cd node
+  174  cd file explorer
+  175  cd file
+  176  cd
+  177  cd Desktop
+  178  mkdir f1
+  179  mkdir f2
+  180  touch file1.txt
+  181  touch file2.txt
+  182  cat >> file1.txt
+  183  cat >> file2.txt
+  184  cp -r ~/Desktop/f2 ~/Downloades
+  185  cat file1
+  186  cd
+  187  cd Downloades
+  188  cat file1
+  189  cd Desktop
+  190  mkdir f3
+  191  touch file1.txt
+  192  touch file2.txt
+  193  cat >> file1.txt
+  194  cat >> file2.txt
+  195  cp -r ~/Desktop/f3 ~/Downloades
+  196  cp f3 Downloades
+  197  cp -r ~/Desktop/f3 ~/Downloades
+  198  ls Downloades
+  199  ls ~/Downloades/f3
+  200  ls
+  201  cd
+  202  cd Downloades
+  203  cp -r ~/Desktop/f3
+  204  ls ~/Downloades/f3
+  205  cat ~/Downloades/f3/file1.txt
+  206  cd Downloades
+  207  cat ~/Downloades/f3/file1.txt
+  208  cat file1.txt
+  209  cd Downloades
+  210  ls
+  211  cd Downloades
+  212  cd Desktop
+  213  ls
+  214  cd f4
+  215  cd f2
+  216  cat>> file1.txt
+  217  cat >>file2.txt
+  218  ls
+  219  cp -r f2 ~/Downloades
+  220  cd .
+  221  cd ..
+  222  cp -r f2 ~/Downloades
+  223  cd ~
+  224  cd Downloades
+  225  ls
+  226  cd f1
+  227  cd f2
+  228  ls
+  229  cat first.txt
+  230  cat file1.txt
+  231  cat file2.txt
+  232  cd
+  233  histrory
+  234  histroy
+  235  history
+  236  whoami
+  237  sudo
+  238  sudo -u username command
+  239  su
+  240  cd Desssktop
+  241  cd Desktop
+  242  cd..
+  243  cd ..
+  244  cd Downloads
+  245  mv /node1/linux.pdf ~/Desktop
+  246  mv /home/rps/Downloads/node1 ~/Desktop
+  247  cd node1
+  248  grep -i
+  249  grep -i "pattern" file1
+  250  cd Downloades
+  251  grep -i "pattern" file1
+  252  cat file1
+  253  touch f1
+  254  grep -i "pattern f1
+  255  cat > geekfile.txt
+  256  grep -i "unix" geekfile.txt
+  257  cd
+  258  cat > geekfile.txt
+  259  grep -i "linux" geekfile.txt
+  260  grep -c "linux" geekfile.txt
+  261  grep -1 "unix" *
+  262  grep -1 "linux" geekfile.txt
+  263  cat > file2.txt
+  264  sort file2.txt
+  265  sort -r  file2.txt
+  266  cat >> file2.txt
+  267  sort file2.txt
+  268  cat > kt.txt
+  269  uniq kt.txt
+  270  uniq -c kt.txt
+  271  uniq -d kt.txt
+  272  cat > a.txt
+  273  cat > b.txt
+  274  diff a.txt b.txt
+  275  echo "this is linux"
+  276  echo -e "this \nis \nlinux
+  277  echo -e "this \nis \nlinux"
+  278  ls -l
+  279  chown -c master file2.txt
+  280  chown -c kt.txt  file2.txt
+  281  chown -c   file2.txt
+  282  chown -c  rps  file2.txt
+  283  ls -l file2.txt
+  284  ls -v rps file2.txt
+  285  ls -l file2.txt
+  286  ls -l
+  287  chmod u+x a.txt
+  288  ls -l
+  289  chmod ugo-r a.txt
+  290  ls -l
+  291  umask
+  292  umask 543
+  293  umask
+  294  ls
+  295  du /Desktop/Documents/Music
+  296  du Desktop
+  297  du -h
+  298  df
+  299  df a.txt
+  300  df -a
+  301  df -h
+  302  df -h a.txt
+  303  basename
+  304  basename -a
+  305  basename -a a.txt
+  306  basename -s a.txt
+  307  dirname
+  308  cd Desktop
+  309  cd Downloads
+  310  mkdir Live
+  311  cd Live
+  312  dirname
+  313  cd
+  314  dirname Desktop/file1.txt
+  315  dirname f1.txt
+  316  dirname-z  Desktop/file1.txt
+  317  dirname-z Desktop/file1.txt
+  318  dirname -z Desktop/file1.txt
+  319  ps
+  320  ps -A
+  321  PS -a
+  322  ps -a
+  323  ps -d
+  324  ps -a -N
+  325  ps -T
+  326  top
+  327  top -h
+  328  kill
+  329  kill -1
+  330  kill -l
+  331  kill -1 SIGHUP
+  332  kill -1 
+  333  kill 123
+  334  kill 1
+  335  kill -s
+  336  kill -s pid
+  337  kill -s 1
+  338  kill -s 1234
+  339  kill -s 12345
+  340  uname
+  341  uname -r
+  342  uname -n
+  343  history
+  344  la -l
+  345  cat > user1.txt
+  346  ls
+  347  ls -l
+  348  chmod ugo+x user1.txt
+  349  ls -l
+  350  chmod u+4 user1.txt
+  351  chmod 4 user1.txt
+  352  ls -l
+  353  chmod 454 user1.txt
+  354  ls -l
+  355  cd Documents
+  356  cd Test
+  357  cd test
+  358  la -l
+  359  ls -l file.txt
+  360  chmod u+x file.txt
+  361  cd
+  362  man ln
+  363  man sudo
+  364  sudo nano file1.txt
+  365  nano file1.txt
+  366  sudo apt-get update
+  367  sudo apt-get instal
+  368  sudo apt-get install
+  369  apt-get update
+  370  sudo apt-get upgrade
+  371  sudo apt-get update
+  372  sudo apt-get upgrade
+  373  E
+  374  sudo apt-get upgrade
+  375  apt-get upgrade
+  376  sudo apt-get upgrade
+  377  sudo apt-get update
+  378  sudo apt-get upgrade
+  379  sudo apt-get update
+  380  sudo apt-get upgrade
+  381  apt-get upgrade
+  382  sudo apt-get upgrade
+  383  sudo apt-get update
+  384  sudo apt-get upgrade
+  385  sudo apt-get update
+  386  rps@12345
+  387  sudo apt-get upgrade
+  388  apt --help
+  389  apt-get --help
+  390  sudo apt-get upgrade
+  391  check
+  392  git init
+  393  git branch -M main
+  394  git add README.md
+  395  git add file1.txt
+  396  git add f1
+  397  git commit
+  398  git commit http ://github.com/Divya1t/Test.git
+  399  git commit Test.git
+  400  git config --global user.email "divyaudaykumar509@gmail.com"
+  401  git config --global user.name  "Divya1t"
+  402  git commit Test.git
+  403  git commit
+  404  cd Desktop
+  405  cd Live
+  406  git commit
+  407  cd test
+  408  mkdir test
+  409  cd test
+  410  git commit
+  411  branch -M main
+  412  sudo apt install rheolef
+  413  remote add origin https ://github.com/Divya1t/Test.git
+  414  sudo snap install remote
+  415* 
+  416  sudo apt-get upgrade
+  417  check
+  418  sudo apt install gitlab-shell
+  419* 
+  420  vi index.php
+  421  vi phpinfo.php
+  422  vi index.php
+  423  cd
+  424  history
